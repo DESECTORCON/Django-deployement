@@ -1,0 +1,21 @@
+{% extends "eventhandler/base.html" %}
+
+{% block body_block %}
+
+  <div class="jumbotron">
+    <h2>Add Event:</h2>
+
+    <div class="container">
+
+      <form method="post" class="form-inline">
+        <div class="form-group">
+          {{ form.as_p }}
+          {% csrf_token %}
+        </div>
+        <input type="submit" class='btn btn-primary' value="Submit">
+      </form>
+
+    </div>
+  </div>
+
+{% endblock %}

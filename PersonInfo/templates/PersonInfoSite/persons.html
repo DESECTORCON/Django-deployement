@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% extends "PersonInfoSite/basic.html" %}
+{% block body_block %}
+
+    <h1>Here are your persons:</h1>
+    {% if persons %}
+
+    <ol>
+      {% for person in persons %}
+        <div class="jumbotron">
+          <li><h2>{{ person.first_name }} {{ person.last_name }} Info</h2></li>
+            <ul>
+              <li><h5>First Name: {{ person.first_name }}</h5></li>
+              <li><h5>Last Name: {{ person.last_name }}</h5></li>
+              <li><h5>Email: {{ person.email }}</h5></li>
+              <li><h5>Height: {{ person.height }}</h5></li>
+              <li><h5>Picture:</h5>{{ person.person_pic }}</li>
+            </ul>
+        </div>
+          {% endfor %}
+    </ol>
+
+    {% endif %}
+
+    {% endblock %}
