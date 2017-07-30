@@ -1,0 +1,215 @@
+/*body{
+  background-color: #d1c740;
+  text-align: center;
+}*/
+
+body{
+  background-color: #d1c740;
+  color:#FDFFFC;
+  text-align: center;
+  border: 60px solid #2EC486;
+  border-top:0px;
+  margin: 0px;
+
+  width: auto;
+  padding-top: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 1500px;
+}
+
+#welcomText{
+  color: #3a3d42;
+  border: 3px groove #3a3d42;
+  font-size: 45px;
+  font-family: 'XoloniumRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.WelcomDIV{
+  color: #4b6647;
+  background-color: #9b6196;
+  border: 2px double #6a56ff;
+  text-decoration: underline;
+  font-family: 'MontserratAlternatesRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+
+#helloP{
+  color: #64efe1;
+  font-size: 1.4em;
+}
+
+#clickP{
+  color: #64d1ef;
+  font-size: 1.1em;
+
+}
+
+#NAVERlink{
+  color: #64bcef;
+}
+
+#SITEs{
+  color: #ef64e8;
+  border: 2px double #9764ef;
+
+  font-size: 20px;
+  font-family: "Hemi Head";
+  font-weight: normal;
+  font-style: normal;
+}
+
+.SiteLinkDIV2{
+  color: #b3e863;
+  border: 2px double #e8dd63;
+  font-size: 20px;
+  font-family: "Hemi Head";
+  width: auto;
+}
+
+#google{
+  color: #ff7723;
+  border: 1px groove #ff7723;
+  width: 30%;
+
+}
+
+#naver{
+  color: #ff5e23;
+  border: 1px groove #ff5e23;
+  width: 30%;
+
+}
+
+#yahoo{
+  color: #ff4b23;
+  border: 1px groove #ff4b23;
+  width: 30%;
+
+}
+
+span{
+  color: #64bcef;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#SpectrumT{
+  border: 1px double blue;
+  color: #42f4e2;
+
+  font-size: 20px;
+  font-family: "Hemi Head";
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.Spectrum{
+  height: 300px;
+  width: 450px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+#color1{
+  background-color: #FFFFDC;
+  height: 300px;
+  width: 250px;
+  border: 6px solid white;
+}
+#color2{
+  background-color: #EFFFCA;
+  height: 300px;
+  width: 250px;
+  border: 6px solid white;
+}
+#color3{
+  background-color: #FFFEC4;
+  height: 300px;
+  width: 250px;
+  border: 6px solid white;
+}
+#color4{
+  background-color: #4C5C36;
+  height: 300px;
+  width: 250px;
+  border: 6px solid white;
+}
+#color5{
+  background-color: #1E221D;
+  height: 300px;
+  width: 250px;
+  border: 6px solid white;
+}
+
+#GotoC{
+  border: 2px solid green;
+  color: #41ebf4;
+  font-family: 'MontserratAlternatesRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.1em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#Link1{
+  background-color: green;
+  color: #41d3f4;
+  border: 2px groove #ff7723;
+
+  font-family: 'MontserratAlternatesRegular';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+.Login{
+  border: 5px solid white;
+  border-radius: 25px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  height: 80%;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+
+#Ltext{
+  border: 4px double white;
+}
+
+form{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+#sub{
+  background-color: #FF9F1C;
+  height: 40px;
+  width:60px;
+  margin: 4px;
+  margin-top: 12px;
+  border-radius: 25px;
+}
+
+#text1{
+  height: 80px;
+  font-style: oblique;
+  text-decoration: underline;
+  font-stretch: condensed;
+  color: #42f1f4;
+  border: 1px solid white;
+  border-width: medium;
+}
+
+#JStext{
+  border: 1px double white;
+}
